@@ -1,6 +1,5 @@
-<!-- markdownlint-disable MD033 -->
 <img src="./.assets/christmas_ferris.png" width="164" alt="">
-<!-- markdownlint-enable MD033 -->
+
 # 🎄 Advent of Code 2025
 
 Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.rust-lang.org/).
