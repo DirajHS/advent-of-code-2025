@@ -17,7 +17,7 @@ fn jolt(bank_line: &str, digits: usize) -> u64 {
     }
     jolt_stack.truncate(digits);
 
-    let jolt: u64 = jolt_stack.iter().fold(0, |acc, x| (acc * 10) + (*x as u64));
+    let jolt: u64 = jolt_stack.iter().fold(0, |acc, x| (acc * 10) + (*x));
     //println!("jolt: {}", jolt);
     jolt
 }
