@@ -170,7 +170,7 @@ pub fn part_two(input: &str) -> Option<u64> {
     // widths/heights are available via the grid; no local copies needed
 
     // Memoization table for in-bounds cells only
-    let mut memo: Vec<Option<u64>> = vec![None; (grid.width * grid.height) as usize];
+    let mut memo: Vec<Option<u64>> = vec![None; grid.width * grid.height];
 
     fn idx(width: usize, r: usize, c: usize) -> usize {
         r * width + c
